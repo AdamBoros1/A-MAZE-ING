@@ -1,4 +1,4 @@
 Projekt na JIMP 2
-Autorzy:
--Adam Boros
+Autorzy:  
+-Adam Boros  
 -Kacper Warpechowski
