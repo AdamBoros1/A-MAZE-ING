@@ -10,12 +10,10 @@ void displayHelp(){
 	
 	printf("Możliwe dodatkowe argumenty: \n");
 	printf("-s, --shortest: Określa, że użytkownik chce znaleźć najkrótszą ścieżkę przez labirynt.\n");
-	printf("-l, --longest: Wskazuje, że użytkownik poszukuje najdłuższej możliwej ścieżki w labiryncie.\n");
-	printf("-a, --all: Wyszukuje i wyświetla wszystkie możliwe ścieżki, nie tylko jedną.\n");
 	printf("-r, --random: Wybiera losową ścieżkę z dostępnych możliwości.\n");
+	printf("-c, --count: Liczy liczbę kroków potrzebnych do przejścia przez znalezioną ścieżkę.\n");
 	printf("-t, --time: Pomiar czasu działania programu od wczytania do znalezienia ścieżki.\n");
 	printf("-d, --details: Wyświetla dodatkowe szczegóły dotyczące procesu znajdowania ścieżki.\n");
-	printf("-c, --count: Liczy liczbę kroków potrzebnych do przejścia przez znalezioną ścieżkę.\n");
 	printf("-f, --file <output_file>: Zapisuje znalezioną ścieżkę do pliku tekstowego o podanej nazwie.\n\n");
 }
 
