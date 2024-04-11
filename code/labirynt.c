@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <pathfinder.h>
 
 void displayHelp(){
 	printf("\nUżycie: ./out [plik_z_labiryntem] [dodatkowy_argumemnt] \n\n");
