@@ -1,31 +1,11 @@
-#ifndef PATHFINDER_H
-#define PATHFINDER_H
+#ifndef BFSH
+#define BFSH
 
-#define ROWS 11
-#define COLS 11
+#include "converter.h"
 
-typedef struct {
-    int row;
-    int col;
-} Point;
+#define MAX_SIZE 100
 
-typedef struct {
-    Point parent;
-    int distance;
-} QueueNode;
-
-typedef struct {
-    QueueNode *array;
-    int front, rear, size;
-    unsigned capacity;
-} Queue;
-
-Queue* createQueue(unsigned capacity);
-int isEmpty(Queue* queue);
-void enqueue(Queue* queue, QueueNode item);
-QueueNode dequeue(Queue* queue);
-int isValid(int row, int col);
-int isDestination(Point pt, Point dest);
-int BFS(char maze[ROWS][COLS], Point src, Point dest);
+//bfs.h
+int traverse(int, int, point_t);
 
 #endif
