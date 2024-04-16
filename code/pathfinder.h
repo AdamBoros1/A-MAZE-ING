@@ -1,11 +1,14 @@
-#ifndef BFSH
-#define BFSH
+#ifndef pathfinderh
+#define pathfinderh
 
-#include "converter.h"
+#include "grapher.h"
 
 #define MAX_SIZE 100
 
-//bfs.h
-int traverse(int, int, point_t);
+int navigate(int, int, Point_t);
+
+void loadParent(int** parent, int* min_parent, int* max_parent, int crt, int n_nodes, int HELD_PARENTS);
+
+void loadGraph(int** graph, int* min_node, int* max_node, int crt, int n_nodes, int HELD_NODES);
 
 #endif
